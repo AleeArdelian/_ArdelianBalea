@@ -2,9 +2,12 @@ package ro.ubbcluj.cs;
 
 import org.junit.Test;
 import ro.ubbcluj.cs.domain.Student;
+import ro.ubbcluj.cs.domain.Tema;
 import ro.ubbcluj.cs.repository.AbstractCRUDRepository;
 import ro.ubbcluj.cs.repository.StudentRepository;
+import ro.ubbcluj.cs.repository.TemaRepository;
 import ro.ubbcluj.cs.validation.StudentValidator;
+import ro.ubbcluj.cs.validation.TemaValidator;
 import ro.ubbcluj.cs.validation.Validator;
 
 import static org.junit.Assert.*;
@@ -53,5 +56,37 @@ public class AppTest
         final Student savedStudent = studentRepository.save(student);
 
         assertNull(savedStudent);
+    }
+
+    @Test
+    public void addAssignment_ValidAssignment_WorksFine() {
+        final String id = "12";
+        final String descriere = "Tema 1";
+        final int deadline = 13;
+        final int startline = 11;
+        final Tema tema = new Tema(id, descriere, deadline, startline);
+
+        final Validator<Tema> temaValidator = new TemaValidator();
+        final AbstractCRUDRepository<String, Tema> temaRepository = new TemaRepository(temaValidator);
+
+        final Tema savedTema = temaRepository.save(tema);
+
+        assertNull(savedTema);
+    }
+
+    @Test
+    public void addAssignment_InvalidAssignment_ThrowsValidatorException() {
+        final String id = "12";
+        final String descriere = "Tema 1";
+        final int deadline = 11;
+        final int startline = 14;
+        final Tema tema = new Tema(id, descriere, deadline, startline);
+
+        final Validator<Tema> temaValidator = new TemaValidator();
+        final AbstractCRUDRepository<String, Tema> temaRepository = new TemaRepository(temaValidator);
+
+        final Tema savedTema = temaRepository.save(tema);
+
+        assertNull(savedTema);
     }
 }

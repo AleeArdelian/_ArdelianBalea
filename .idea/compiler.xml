@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Lab2_ArdelianBalea_Project" />
+        <module name="_ArdelianBalea" />
       </profile>
     </annotationProcessing>
   </component>
