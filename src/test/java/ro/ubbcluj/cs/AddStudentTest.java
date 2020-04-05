@@ -52,7 +52,7 @@ public class AddStudentTest {
                 {"aaa", "Balea Alexandru", 931, 1},
                 {"aaa1111", "Balea Alexandru", 931, 1},
                 {"aaaa1111", "Balea Alexandru", 931, 0},
-                {"aaa1111", "Ardelian Alexandra", 931, 0},
+                {"aaa1111", "Ardelian Alexandra", 931, 1},
                 {"aaaaaaaaaa111111111", "Balea Alexandru", 931, 0},
                 {"aaa1112", "", 931, 0},
                 {"aaa1113", "Balea Alexandru 12312412", 931, 0},

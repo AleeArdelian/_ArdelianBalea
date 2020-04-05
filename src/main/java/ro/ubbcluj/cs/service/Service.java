@@ -28,7 +28,7 @@ public class Service {
         Student student = new Student(id, nume, grupa);
         Student result = studentXmlRepo.save(student);
 
-        if (result == null) {
+        if (result != null) {
             return 1;
         }
         return 0;

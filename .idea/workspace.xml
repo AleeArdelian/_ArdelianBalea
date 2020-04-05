@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a96beecc-160c-44d2-a8ec-027b35332a9b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ro/ubbcluj/cs/AddStudentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/ubbcluj/cs/repository/AbstractCRUDRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/ubbcluj/cs/repository/AbstractCRUDRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/ubbcluj/cs/repository/AbstractXMLRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/ubbcluj/cs/repository/AbstractXMLRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/ubbcluj/cs/service/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/ubbcluj/cs/service/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/ubbcluj/cs/validation/StudentValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/ubbcluj/cs/validation/StudentValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ro/ubbcluj/cs/AddStudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ro/ubbcluj/cs/AddStudentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ro.ubbcluj.cs.AppTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/ro.ubbcluj.cs.AppTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/_ArdelianBalea.kotlin_module" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +90,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AddStudentTest.testAddStudentFeature" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_ArdelianBalea" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ro.ubbcluj.cs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ro.ubbcluj.cs" />
+      <option name="MAIN_CLASS_NAME" value="ro.ubbcluj.cs.AddStudentTest" />
+      <option name="METHOD_NAME" value="testAddStudentFeature" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="_ArdelianBalea" />
       <extension name="coverage">
@@ -109,22 +137,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.addStudent_TC7_idLengthGreaterThan7_errorMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="_ArdelianBalea" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ro.ubbcluj.cs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ro.ubbcluj.cs" />
-      <option name="MAIN_CLASS_NAME" value="ro.ubbcluj.cs.AppTest" />
-      <option name="METHOD_NAME" value="addStudent_TC7_idLengthGreaterThan7_errorMessage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="AppTest.addStudent_TC8_emptyName_errorMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="_ArdelianBalea" />
       <extension name="coverage">
@@ -143,18 +155,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.AppTest.addStudent_TC8_emptyName_errorMessage" />
-      <item itemvalue="JUnit.AppTest.addStudent_TC7_idLengthGreaterThan7_errorMessage" />
       <item itemvalue="JUnit.AppTest.addStudent_TC10_groupNotPositive_errorMessage" />
       <item itemvalue="JUnit.AppTest" />
       <item itemvalue="JUnit.AddStudentTest" />
+      <item itemvalue="JUnit.AddStudentTest.testAddStudentFeature" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.AddStudentTest" />
+        <item itemvalue="JUnit.AddStudentTest.testAddStudentFeature" />
         <item itemvalue="JUnit.AppTest" />
         <item itemvalue="JUnit.AppTest.addStudent_TC10_groupNotPositive_errorMessage" />
         <item itemvalue="JUnit.AppTest.addStudent_TC8_emptyName_errorMessage" />
-        <item itemvalue="JUnit.AppTest.addStudent_TC7_idLengthGreaterThan7_errorMessage" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +187,9 @@
       <workItem from="1584947006795" duration="2208000" />
       <workItem from="1584976480886" duration="29000" />
       <workItem from="1586092451824" duration="9684000" />
-      <workItem from="1586113171203" duration="1150000" />
+      <workItem from="1586113171203" duration="4134000" />
+      <workItem from="1586118725172" duration="434000" />
+      <workItem from="1586120905828" duration="990000" />
     </task>
     <task id="LOCAL-00001" summary="[Lab2] Added tests for add assignment repository method">
       <created>1584948127846</created>
@@ -219,30 +233,34 @@
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="184" y="83" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.797@0.23.1440.797" timestamp="1584947428562" />
+    <state x="100" y="123" width="1240" height="597" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1586121177121">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="100" y="123" width="1240" height="597" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1440.797@0.23.1440.797" timestamp="1586121177121" />
     <state x="303" y="24" key="CommitChangelistDialog2" timestamp="1584948127695">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="303" y="24" key="CommitChangelistDialog2/0.23.1440.797@0.23.1440.797" timestamp="1584948127694" />
-    <state width="1396" height="204" key="GridCell.Tab.0.bottom" timestamp="1586114260594">
-      <screen x="0" y="23" width="1440" height="798" />
+    <state width="1396" height="204" key="GridCell.Tab.0.bottom" timestamp="1586121910081">
+      <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1396" height="253" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1584951555791" />
-    <state width="1396" height="204" key="GridCell.Tab.0.bottom/0.23.1440.798@0.23.1440.798" timestamp="1586114260594" />
-    <state width="1396" height="204" key="GridCell.Tab.0.center" timestamp="1586114260594">
-      <screen x="0" y="23" width="1440" height="798" />
+    <state width="1396" height="204" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1586121910081" />
+    <state width="1396" height="204" key="GridCell.Tab.0.bottom/0.23.1440.798@0.23.1440.798" timestamp="1586115427833" />
+    <state width="1396" height="204" key="GridCell.Tab.0.center" timestamp="1586121910080">
+      <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1396" height="253" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1584951555791" />
-    <state width="1396" height="204" key="GridCell.Tab.0.center/0.23.1440.798@0.23.1440.798" timestamp="1586114260594" />
-    <state width="1396" height="204" key="GridCell.Tab.0.left" timestamp="1586114260593">
-      <screen x="0" y="23" width="1440" height="798" />
+    <state width="1396" height="204" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1586121910080" />
+    <state width="1396" height="204" key="GridCell.Tab.0.center/0.23.1440.798@0.23.1440.798" timestamp="1586115427832" />
+    <state width="1396" height="204" key="GridCell.Tab.0.left" timestamp="1586121910079">
+      <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1396" height="253" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1584951555791" />
-    <state width="1396" height="204" key="GridCell.Tab.0.left/0.23.1440.798@0.23.1440.798" timestamp="1586114260593" />
-    <state width="1396" height="204" key="GridCell.Tab.0.right" timestamp="1586114260594">
-      <screen x="0" y="23" width="1440" height="798" />
+    <state width="1396" height="204" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1586121910079" />
+    <state width="1396" height="204" key="GridCell.Tab.0.left/0.23.1440.798@0.23.1440.798" timestamp="1586115427832" />
+    <state width="1396" height="204" key="GridCell.Tab.0.right" timestamp="1586121910080">
+      <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1396" height="253" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1584951555791" />
-    <state width="1396" height="204" key="GridCell.Tab.0.right/0.23.1440.798@0.23.1440.798" timestamp="1586114260594" />
+    <state width="1396" height="204" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1586121910080" />
+    <state width="1396" height="204" key="GridCell.Tab.0.right/0.23.1440.798@0.23.1440.798" timestamp="1586115427833" />
     <state width="1396" height="253" key="GridCell.Tab.1.bottom" timestamp="1586112914680">
       <screen x="0" y="23" width="1440" height="798" />
     </state>
