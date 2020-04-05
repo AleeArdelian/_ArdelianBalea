@@ -4,6 +4,7 @@
     <list default="true" id="a96beecc-160c-44d2-a8ec-027b35332a9b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ro/ubbcluj/cs/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ro/ubbcluj/cs/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-studenti.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,19 +57,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.AppTest">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ro.ubbcluj.cs.App" />
-      <module name="_ArdelianBalea" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ro.ubbcluj.cs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="_ArdelianBalea" />
       <extension name="coverage">
@@ -84,7 +72,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.addAssignment_ValidAssignment_Valid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.addStudent_TC10_groupNotPositive_errorMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="_ArdelianBalea" />
       <extension name="coverage">
         <pattern>
@@ -94,13 +82,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ro.ubbcluj.cs" />
       <option name="MAIN_CLASS_NAME" value="ro.ubbcluj.cs.AppTest" />
-      <option name="METHOD_NAME" value="addAssignment_ValidAssignment_Valid" />
+      <option name="METHOD_NAME" value="addStudent_TC10_groupNotPositive_errorMessage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.addAssignment_ValidAssignment_WorksFine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.addStudent_TC3_idLength3_studentIsAdded" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="_ArdelianBalea" />
       <extension name="coverage">
         <pattern>
@@ -110,24 +98,58 @@
       </extension>
       <option name="PACKAGE_NAME" value="ro.ubbcluj.cs" />
       <option name="MAIN_CLASS_NAME" value="ro.ubbcluj.cs.AppTest" />
-      <option name="METHOD_NAME" value="addAssignment_ValidAssignment_WorksFine" />
+      <option name="METHOD_NAME" value="addStudent_TC3_idLength3_studentIsAdded" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.addStudent_TC7_idLengthGreaterThan7_errorMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_ArdelianBalea" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ro.ubbcluj.cs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ro.ubbcluj.cs" />
+      <option name="MAIN_CLASS_NAME" value="ro.ubbcluj.cs.AppTest" />
+      <option name="METHOD_NAME" value="addStudent_TC7_idLengthGreaterThan7_errorMessage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.addStudent_TC8_emptyName_errorMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_ArdelianBalea" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ro.ubbcluj.cs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ro.ubbcluj.cs" />
+      <option name="MAIN_CLASS_NAME" value="ro.ubbcluj.cs.AppTest" />
+      <option name="METHOD_NAME" value="addStudent_TC8_emptyName_errorMessage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.App" />
+      <item itemvalue="JUnit.AppTest.addStudent_TC8_emptyName_errorMessage" />
+      <item itemvalue="JUnit.AppTest.addStudent_TC3_idLength3_studentIsAdded" />
+      <item itemvalue="JUnit.AppTest.addStudent_TC7_idLengthGreaterThan7_errorMessage" />
+      <item itemvalue="JUnit.AppTest.addStudent_TC10_groupNotPositive_errorMessage" />
       <item itemvalue="JUnit.AppTest" />
-      <item itemvalue="JUnit.AppTest.addAssignment_ValidAssignment_Valid" />
-      <item itemvalue="JUnit.AppTest.addAssignment_ValidAssignment_WorksFine" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.AppTest" />
-        <item itemvalue="JUnit.AppTest.addAssignment_ValidAssignment_WorksFine" />
-        <item itemvalue="JUnit.AppTest.addAssignment_ValidAssignment_Valid" />
-        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.AppTest.addStudent_TC10_groupNotPositive_errorMessage" />
+        <item itemvalue="JUnit.AppTest.addStudent_TC8_emptyName_errorMessage" />
+        <item itemvalue="JUnit.AppTest.addStudent_TC7_idLengthGreaterThan7_errorMessage" />
+        <item itemvalue="JUnit.AppTest.addStudent_TC3_idLength3_studentIsAdded" />
       </list>
     </recent_temporary>
   </component>
@@ -147,7 +169,7 @@
       <workItem from="1584944776578" duration="495000" />
       <workItem from="1584947006795" duration="2208000" />
       <workItem from="1584976480886" duration="29000" />
-      <workItem from="1586092451824" duration="6924000" />
+      <workItem from="1586092451824" duration="9352000" />
     </task>
     <task id="LOCAL-00001" summary="[Lab2] Added tests for add assignment repository method">
       <created>1584948127846</created>
@@ -195,26 +217,26 @@
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="303" y="24" key="CommitChangelistDialog2/0.23.1440.797@0.23.1440.797" timestamp="1584948127694" />
-    <state width="1396" height="204" key="GridCell.Tab.0.bottom" timestamp="1586104078399">
+    <state width="1396" height="204" key="GridCell.Tab.0.bottom" timestamp="1586112275577">
       <screen x="0" y="23" width="1440" height="798" />
     </state>
     <state width="1396" height="253" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1584951555791" />
-    <state width="1396" height="204" key="GridCell.Tab.0.bottom/0.23.1440.798@0.23.1440.798" timestamp="1586104078399" />
-    <state width="1396" height="204" key="GridCell.Tab.0.center" timestamp="1586104078398">
+    <state width="1396" height="204" key="GridCell.Tab.0.bottom/0.23.1440.798@0.23.1440.798" timestamp="1586112275577" />
+    <state width="1396" height="204" key="GridCell.Tab.0.center" timestamp="1586112275576">
       <screen x="0" y="23" width="1440" height="798" />
     </state>
     <state width="1396" height="253" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1584951555791" />
-    <state width="1396" height="204" key="GridCell.Tab.0.center/0.23.1440.798@0.23.1440.798" timestamp="1586104078398" />
-    <state width="1396" height="204" key="GridCell.Tab.0.left" timestamp="1586104078397">
+    <state width="1396" height="204" key="GridCell.Tab.0.center/0.23.1440.798@0.23.1440.798" timestamp="1586112275576" />
+    <state width="1396" height="204" key="GridCell.Tab.0.left" timestamp="1586112275575">
       <screen x="0" y="23" width="1440" height="798" />
     </state>
     <state width="1396" height="253" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1584951555791" />
-    <state width="1396" height="204" key="GridCell.Tab.0.left/0.23.1440.798@0.23.1440.798" timestamp="1586104078397" />
-    <state width="1396" height="204" key="GridCell.Tab.0.right" timestamp="1586104078398">
+    <state width="1396" height="204" key="GridCell.Tab.0.left/0.23.1440.798@0.23.1440.798" timestamp="1586112275575" />
+    <state width="1396" height="204" key="GridCell.Tab.0.right" timestamp="1586112275576">
       <screen x="0" y="23" width="1440" height="798" />
     </state>
     <state width="1396" height="253" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1584951555791" />
-    <state width="1396" height="204" key="GridCell.Tab.0.right/0.23.1440.798@0.23.1440.798" timestamp="1586104078398" />
+    <state width="1396" height="204" key="GridCell.Tab.0.right/0.23.1440.798@0.23.1440.798" timestamp="1586112275576" />
     <state width="1396" height="253" key="GridCell.Tab.1.bottom" timestamp="1586103309919">
       <screen x="0" y="23" width="1440" height="798" />
     </state>
