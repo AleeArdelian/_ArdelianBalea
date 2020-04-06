@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entitati>
+    <nota IDStudent="aaa112" IDTema="2">
+        <Nota>1.0</Nota>
+        <SaptamanaPredare>13</SaptamanaPredare>
+        <Feedback>nota&lt;0</Feedback>
+    </nota>
+    <nota IDStudent="aaa113" IDTema="3">
+        <Nota>1.0</Nota>
+        <SaptamanaPredare>236</SaptamanaPredare>
+        <Feedback>saptaman&gt;14</Feedback>
+    </nota>
+    <nota IDStudent="aaa111" IDTema="3">
+        <Nota>1.0</Nota>
+        <SaptamanaPredare>13</SaptamanaPredare>
+        <Feedback>buna</Feedback>
+    </nota>
+</Entitati>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entitati>
+    <student ID="aaa">
+        <Nume>Balea Alexandru</Nume>
+        <Grupa>931</Grupa>
+    </student>
+    <student ID="aaa1121">
+        <Nume>Balea Alexandru</Nume>
+        <Grupa>101</Grupa>
+    </student>
+    <student ID="a">
+        <Nume>Balea Alexandru</Nume>
+        <Grupa>931</Grupa>
+    </student>
+    <student ID="aaa1111">
+        <Nume>Balea Alexandru</Nume>
+        <Grupa>931</Grupa>
+    </student>
+    <student ID="aaa1123">
+        <Nume>Balea Alexandru</Nume>
+        <Grupa>999</Grupa>
+    </student>
+    <student ID="aaaa111">
+        <Nume>Ardelian Alexandra</Nume>
+        <Grupa>931</Grupa>
+    </student>
+    <student ID="aaa1120">
+        <Nume>Balea Alexandru</Nume>
+        <Grupa>100</Grupa>
+    </student>
+</Entitati>

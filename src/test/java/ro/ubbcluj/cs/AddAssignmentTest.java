@@ -60,7 +60,7 @@ public class AddAssignmentTest {
     }
 
     @Test
-    public void testAddStudentFeature() {
+    public void testAddAssignment() {
 
         // When
         final int result = service.saveTema(id, descriere, deadline, startline);

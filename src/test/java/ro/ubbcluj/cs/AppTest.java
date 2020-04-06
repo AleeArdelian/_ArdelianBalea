@@ -17,7 +17,7 @@ import static org.junit.Assert.*;
 
 public class AppTest {
 
-    private static final String STUDENTS_FILE = "test-studenti.xml";
+    private static final String STUDENTS_FILE = "test-studenti-1.xml";
 
     private static final Validator<Student> studentValidator = new StudentValidator();
 
@@ -49,7 +49,7 @@ public class AppTest {
         final Student savedStudent = studentRepository.save(student);
         final Student savedStudent1 = studentRepository.save(student);
 
-        assertNull(savedStudent);
+        assertNotNull(savedStudent);
         assertEquals(savedStudent1, student);
     }
 
@@ -81,7 +81,7 @@ public class AppTest {
 
         final Tema savedTema = temaRepository.save(tema);
 
-        assertNull(savedTema);
+        assertNotNull(savedTema);
     }
 
     @Test
@@ -181,7 +181,7 @@ public class AppTest {
         final int result = service.saveStudent(id, nume, grupa);
 
         // Then
-        assertEquals(result, 0);
+        assertEquals(result, 1);
     }
 
     @Test

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entitati>
+    <tema ID="aaa">
+        <Descriere>asd</Descriere>
+        <Deadline>14</Deadline>
+        <Startline>12</Startline>
+    </tema>
+    <tema ID="1">
+        <Descriere>Tema 1</Descriere>
+        <Deadline>3</Deadline>
+        <Startline>1</Startline>
+    </tema>
+    <tema ID="2">
+        <Descriere>Tema 2</Descriere>
+        <Deadline>4</Deadline>
+        <Startline>2</Startline>
+    </tema>
+    <tema ID="3">
+        <Descriere>Tema 3</Descriere>
+        <Deadline>5</Deadline>
+        <Startline>3</Startline>
+    </tema>
+</Entitati>

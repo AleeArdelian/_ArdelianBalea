@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a96beecc-160c-44d2-a8ec-027b35332a9b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ro/ubbcluj/cs/AddAssignmentTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/ubbcluj/cs/service/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/ubbcluj/cs/service/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ro/ubbcluj/cs/AddGradeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ro/ubbcluj/cs/AddGradeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ro/ubbcluj/cs/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ro/ubbcluj/cs/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-note.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-studenti.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-teme.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-teme.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +66,7 @@
       <recent name="C:\Users\Alexandru\Desktop\Faculty\5th Sem\PDP\final-project\Lab2_ArdelianBalea_Project\src\main\java\ro\ubbcluj\cs" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AddAssignmentTest">
+  <component name="RunManager" selected="JUnit.AppTest">
     <configuration name="AddAssignmentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="_ArdelianBalea" />
       <extension name="coverage">
@@ -74,6 +77,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="ro.ubbcluj.cs" />
       <option name="MAIN_CLASS_NAME" value="ro.ubbcluj.cs.AddAssignmentTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddGradeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_ArdelianBalea" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ro.ubbcluj.cs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ro.ubbcluj.cs" />
+      <option name="MAIN_CLASS_NAME" value="ro.ubbcluj.cs.AddGradeTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -125,36 +143,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.addStudent_TC10_groupNotPositive_errorMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="_ArdelianBalea" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ro.ubbcluj.cs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ro.ubbcluj.cs" />
-      <option name="MAIN_CLASS_NAME" value="ro.ubbcluj.cs.AppTest" />
-      <option name="METHOD_NAME" value="addStudent_TC10_groupNotPositive_errorMessage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.AppTest.addStudent_TC10_groupNotPositive_errorMessage" />
       <item itemvalue="JUnit.AppTest" />
       <item itemvalue="JUnit.AddStudentTest" />
       <item itemvalue="JUnit.AddStudentTest.testAddStudentFeature" />
       <item itemvalue="JUnit.AddAssignmentTest" />
+      <item itemvalue="JUnit.AddGradeTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AppTest" />
         <item itemvalue="JUnit.AddAssignmentTest" />
         <item itemvalue="JUnit.AddStudentTest" />
+        <item itemvalue="JUnit.AddGradeTest" />
         <item itemvalue="JUnit.AddStudentTest.testAddStudentFeature" />
-        <item itemvalue="JUnit.AppTest" />
-        <item itemvalue="JUnit.AppTest.addStudent_TC10_groupNotPositive_errorMessage" />
       </list>
     </recent_temporary>
   </component>
@@ -178,6 +180,8 @@
       <workItem from="1586113171203" duration="4134000" />
       <workItem from="1586118725172" duration="434000" />
       <workItem from="1586120905828" duration="2192000" />
+      <workItem from="1586125265164" duration="54000" />
+      <workItem from="1586150497154" duration="3338000" />
     </task>
     <task id="LOCAL-00001" summary="[Lab2] Added tests for add assignment repository method">
       <created>1584948127846</created>
@@ -229,45 +233,45 @@
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="303" y="24" key="CommitChangelistDialog2/0.23.1440.797@0.23.1440.797" timestamp="1584948127694" />
-    <state width="1396" height="204" key="GridCell.Tab.0.bottom" timestamp="1586125243457">
+    <state width="1396" height="204" key="GridCell.Tab.0.bottom" timestamp="1586153948666">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1396" height="204" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1586125243457" />
+    <state width="1396" height="204" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1586153948666" />
     <state width="1396" height="204" key="GridCell.Tab.0.bottom/0.23.1440.798@0.23.1440.798" timestamp="1586115427833" />
-    <state width="1396" height="204" key="GridCell.Tab.0.center" timestamp="1586125243456">
+    <state width="1396" height="204" key="GridCell.Tab.0.center" timestamp="1586153948666">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1396" height="204" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1586125243456" />
+    <state width="1396" height="204" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1586153948666" />
     <state width="1396" height="204" key="GridCell.Tab.0.center/0.23.1440.798@0.23.1440.798" timestamp="1586115427832" />
-    <state width="1396" height="204" key="GridCell.Tab.0.left" timestamp="1586125243456">
+    <state width="1396" height="204" key="GridCell.Tab.0.left" timestamp="1586153948665">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1396" height="204" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1586125243456" />
+    <state width="1396" height="204" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1586153948665" />
     <state width="1396" height="204" key="GridCell.Tab.0.left/0.23.1440.798@0.23.1440.798" timestamp="1586115427832" />
-    <state width="1396" height="204" key="GridCell.Tab.0.right" timestamp="1586125243456">
+    <state width="1396" height="204" key="GridCell.Tab.0.right" timestamp="1586153948666">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1396" height="204" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1586125243456" />
+    <state width="1396" height="204" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1586153948666" />
     <state width="1396" height="204" key="GridCell.Tab.0.right/0.23.1440.798@0.23.1440.798" timestamp="1586115427833" />
-    <state width="1396" height="253" key="GridCell.Tab.1.bottom" timestamp="1586112914680">
-      <screen x="0" y="23" width="1440" height="798" />
+    <state width="1396" height="253" key="GridCell.Tab.1.bottom" timestamp="1586152792332">
+      <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1396" height="253" key="GridCell.Tab.1.bottom/0.23.1440.797@0.23.1440.797" timestamp="1584951555798" />
+    <state width="1396" height="253" key="GridCell.Tab.1.bottom/0.23.1440.797@0.23.1440.797" timestamp="1586152792332" />
     <state width="1396" height="253" key="GridCell.Tab.1.bottom/0.23.1440.798@0.23.1440.798" timestamp="1586112914680" />
-    <state width="1396" height="253" key="GridCell.Tab.1.center" timestamp="1586112914679">
-      <screen x="0" y="23" width="1440" height="798" />
+    <state width="1396" height="253" key="GridCell.Tab.1.center" timestamp="1586152792331">
+      <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1396" height="253" key="GridCell.Tab.1.center/0.23.1440.797@0.23.1440.797" timestamp="1584951555792" />
+    <state width="1396" height="253" key="GridCell.Tab.1.center/0.23.1440.797@0.23.1440.797" timestamp="1586152792331" />
     <state width="1396" height="253" key="GridCell.Tab.1.center/0.23.1440.798@0.23.1440.798" timestamp="1586112914679" />
-    <state width="1396" height="253" key="GridCell.Tab.1.left" timestamp="1586112914679">
-      <screen x="0" y="23" width="1440" height="798" />
+    <state width="1396" height="253" key="GridCell.Tab.1.left" timestamp="1586152792331">
+      <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1396" height="253" key="GridCell.Tab.1.left/0.23.1440.797@0.23.1440.797" timestamp="1584951555792" />
+    <state width="1396" height="253" key="GridCell.Tab.1.left/0.23.1440.797@0.23.1440.797" timestamp="1586152792331" />
     <state width="1396" height="253" key="GridCell.Tab.1.left/0.23.1440.798@0.23.1440.798" timestamp="1586112914679" />
-    <state width="1396" height="253" key="GridCell.Tab.1.right" timestamp="1586112914680">
-      <screen x="0" y="23" width="1440" height="798" />
+    <state width="1396" height="253" key="GridCell.Tab.1.right" timestamp="1586152792332">
+      <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1396" height="253" key="GridCell.Tab.1.right/0.23.1440.797@0.23.1440.797" timestamp="1584951555792" />
+    <state width="1396" height="253" key="GridCell.Tab.1.right/0.23.1440.797@0.23.1440.797" timestamp="1586152792332" />
     <state width="1396" height="253" key="GridCell.Tab.1.right/0.23.1440.798@0.23.1440.798" timestamp="1586112914680" />
     <state x="320" y="161" key="Vcs.Push.Dialog.v2" timestamp="1584948137674">
       <screen x="0" y="23" width="1440" height="797" />
