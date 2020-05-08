@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a96beecc-160c-44d2-a8ec-027b35332a9b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ro/ubbcluj/cs/IntegrationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ro/ubbcluj/cs/AddGradeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ro/ubbcluj/cs/AddGradeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ro/ubbcluj/cs/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ro/ubbcluj/cs/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-note.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-studenti.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-teme.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-teme.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,13 +25,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="948" />
     <option name="width" value="981" />
@@ -43,7 +33,6 @@
   <component name="ProjectId" id="1YsjLNhU6nIheOTh0ohrcs0ozQP" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -66,7 +55,7 @@
       <recent name="C:\Users\Alexandru\Desktop\Faculty\5th Sem\PDP\final-project\Lab2_ArdelianBalea_Project\src\main\java\ro\ubbcluj\cs" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AppTest">
+  <component name="RunManager" selected="JUnit.IntegrationTest">
     <configuration name="AddAssignmentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="_ArdelianBalea" />
       <extension name="coverage">
@@ -112,22 +101,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddStudentTest.testAddStudentFeature" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="_ArdelianBalea" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ro.ubbcluj.cs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ro.ubbcluj.cs" />
-      <option name="MAIN_CLASS_NAME" value="ro.ubbcluj.cs.AddStudentTest" />
-      <option name="METHOD_NAME" value="testAddStudentFeature" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="_ArdelianBalea" />
       <extension name="coverage">
@@ -143,20 +116,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_ArdelianBalea" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ro.ubbcluj.cs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ro.ubbcluj.cs" />
+      <option name="MAIN_CLASS_NAME" value="ro.ubbcluj.cs.IntegrationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JUnit.AppTest" />
       <item itemvalue="JUnit.AddStudentTest" />
-      <item itemvalue="JUnit.AddStudentTest.testAddStudentFeature" />
       <item itemvalue="JUnit.AddAssignmentTest" />
       <item itemvalue="JUnit.AddGradeTest" />
+      <item itemvalue="JUnit.IntegrationTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IntegrationTest" />
         <item itemvalue="JUnit.AppTest" />
         <item itemvalue="JUnit.AddAssignmentTest" />
         <item itemvalue="JUnit.AddStudentTest" />
         <item itemvalue="JUnit.AddGradeTest" />
-        <item itemvalue="JUnit.AddStudentTest.testAddStudentFeature" />
       </list>
     </recent_temporary>
   </component>
@@ -182,6 +170,7 @@
       <workItem from="1586120905828" duration="2192000" />
       <workItem from="1586125265164" duration="54000" />
       <workItem from="1586150497154" duration="3338000" />
+      <workItem from="1588965595006" duration="304000" />
     </task>
     <task id="LOCAL-00001" summary="[Lab2] Added tests for add assignment repository method">
       <created>1584948127846</created>
@@ -194,7 +183,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[Lab2] Added tests for add assignment repository method" />
@@ -289,5 +278,16 @@
       <screen x="0" y="23" width="1440" height="801" />
     </state>
     <state x="378" y="178" width="683" height="486" key="find.popup/0.23.1440.801@0.23.1440.801" timestamp="1586094805935" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ro/ubbcluj/cs/service/Service.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
